@@ -1,0 +1,86 @@
+h2{
+    color:darkblue;
+}
+
+td{
+    color: #12ba54; 
+}
+
+#titol {
+  color: #02b27e;
+}
+
+#redbolt {
+  color: #b20802;
+}
+
+#yellowbolt {
+  color: #ef8000;
+}
+
+#redunderline {
+    color: #b20802;
+}
+
+#blueunderline {
+    color:darkblue;
+}
+
+#tabletitleblue {
+    color:darkblue; 
+}
+
+#greenp {
+    color:  #719c1e; 
+}
+
+#strongpurple {
+    color:   #9c1e99; 
+}
+
+#underlinedgreen {
+    color:  #006933; 
+}
+
+.row {
+    margin-left: 5rem;
+    display: inline-flex;
+}
+
+.image-gallery img {
+    margin-right: 5rem;
+    max-width: 100%;
+    height: 500px;
+}
+
+
+#blur-image:hover {
+    filter: blur(10px);
+}
+
+.un:hover {
+    filter: grayscale(80%);
+    max-width: 100%;
+    height: 500px;
+}
+
+.sepia:hover {
+    filter: sepia(52%);
+}
+
+.constraste:hover {
+    filter:contrast(1.75); 
+}
+
+.matiz:hover {
+    filter: hue-rotate(90deg);
+}
+
+.invertir:hover {
+    filter: invert(1);
+}
+
+.personalizado:hover {
+    filter: contrast(1.75) hue-rotate(3.142rad);
+    transform: scale(1.10);
+}
